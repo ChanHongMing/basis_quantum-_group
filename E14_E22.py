@@ -29,33 +29,27 @@ def minmonomialbase(nt,rt,numbase):
                     for pos in range(nt-2):
                         if(newfl[m][:pos]==newfl[n][:pos]):
                             if(newfl[m][pos+3:]==newfl[n][pos+3:]):
-                                if(newfl[m][pos:pos+3]=='EeE' 
-                                and newfl[n][pos:pos+3]=='eEE'):
+                                if(newfl[m][pos:pos+3]=='EeE' and newfl[n][pos:pos+3]=='eEE'):
                                     newstr=newfl[m][:pos]+'EEe'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
-                                elif(newfl[m][pos:pos+3]=='EeE' 
-                                and newfl[n][pos:pos+3]=='EEe'):
+                                elif(newfl[m][pos:pos+3]=='EeE' and newfl[n][pos:pos+3]=='EEe'):
                                     newstr=newfl[m][:pos]+'eEE'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
-                                elif(newfl[m][pos:pos+3]=='EEe' 
-                                and newfl[n][pos:pos+3]=='EeE'):
+                                elif(newfl[m][pos:pos+3]=='EEe' and newfl[n][pos:pos+3]=='EeE'):
                                     newstr=newfl[m][:pos]+'eEE'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
-                                elif(newfl[m][pos:pos+3]=='EEe' 
-                                and newfl[n][pos:pos+3]=='eEE'):
+                                elif(newfl[m][pos:pos+3]=='EEe' and newfl[n][pos:pos+3]=='eEE'):
                                     newstr=newfl[m][:pos]+'EeE'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
-                                elif(newfl[m][pos:pos+3]=='eEE' 
-                                and newfl[n][pos:pos+3]=='EEe'):
+                                elif(newfl[m][pos:pos+3]=='eEE' and newfl[n][pos:pos+3]=='EEe'):
                                     newstr=newfl[m][:pos]+'EeE'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
-                                elif(newfl[m][pos:pos+3]=='eEE' 
-                                and newfl[n][pos:pos+3]=='EeE'):
+                                elif(newfl[m][pos:pos+3]=='eEE' and newfl[n][pos:pos+3]=='EeE'):
                                     newstr=newfl[m][:pos]+'EEe'+newfl[m][pos+3:]
                                     if(newstr not in newfl):
                                         newfl.append(newstr)
