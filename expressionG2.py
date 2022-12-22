@@ -30,32 +30,28 @@ class expressionG2:
             while j<len(generator)-1:
                 if generator[j]=='f' and generator[j+1]=='k':
                     generator=generator[:j]+'kf'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(2,2,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(2,2,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='f' and generator[j+1]=='K':
                     generator=generator[:j]+'Kf'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-3,-3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-3,-3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='F' and generator[j+1]=='k':
                     generator=generator[:j]+'kF'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-3,-3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-3,-3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='F' and generator[j+1]=='K':
                     generator=generator[:j]+'KF'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(6,6,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(6,6,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
@@ -68,32 +64,28 @@ class expressionG2:
                         j=1
                 elif generator[j]=='k' and generator[j+1]=='E':
                     generator=generator[:j]+'Ek'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-3,-3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-3,-3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='k' and generator[j+1]=='e':
                     generator=generator[:j]+'ek'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(2,2,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(2,2,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='K' and generator[j+1]=='E':
                     generator=generator[:j]+'EK'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(6,6,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(6,6,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='K' and generator[j+1]=='e':
                     generator=generator[:j]+'eK'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-3,-3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-3,-3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
@@ -112,32 +104,28 @@ class expressionG2:
                         j=1
                 elif generator[j]=='f' and generator[j+1]=='j':
                     generator=generator[:j]+'jf'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-2,-2,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-2,-2,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='f' and generator[j+1]=='J':
                     generator=generator[:j]+'Jf'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(3,3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(3,3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='F' and generator[j+1]=='j':
                     generator=generator[:j]+'jF'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(3,3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(3,3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='F' and generator[j+1]=='J':
                     generator=generator[:j]+'JF'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-6,-6,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-6,-6,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
@@ -150,32 +138,28 @@ class expressionG2:
                         j=1
                 elif generator[j]=='j' and generator[j+1]=='E':
                     generator=generator[:j]+'Ej'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(3,3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(3,3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='j' and generator[j+1]=='e':
                     generator=generator[:j]+'ej'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-2,-2,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-2,-2,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='J' and generator[j+1]=='E':
                     generator=generator[:j]+'EJ'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(-6,-6,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(-6,-6,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
                         j=1
                 elif generator[j]=='J' and generator[j+1]=='e':
                     generator=generator[:j]+'eJ'+generator[j+2:]
-                    numerator=numerator*quickimp.laurent(3,3,
-                    numpy.array([1],dtype=int))
+                    numerator=numerator*quickimp.laurent(3,3,numpy.array([1],dtype=int))
                     if j>0:
                         j-=1
                     else:
@@ -219,12 +203,10 @@ class expressionG2:
                 elif generator[j]=='F' and generator[j+1]=='E':
                     generator=generator[:j]+'EF'+generator[j+2:]
                     tempgen=genLib.genClass(generator[:j]+'K'+generator[j+2:])
-                    tempde=denominator*quickimp.laurent(3,-3,
-                    numpy.array([1,0,0,0,0,0,-1],dtype=int))
+                    tempde=denominator*quickimp.laurent(3,-3,numpy.array([1,0,0,0,0,0,-1],dtype=int))
                     templist.append(mono.monomial(tempde,numerator,tempgen))
                     tempgen=genLib.genClass(generator[:j]+'J'+generator[j+2:])
-                    tempde=denominator*quickimp.laurent(3,-3,
-                    numpy.array([-1,0,0,0,0,0,1],dtype=int))
+                    tempde=denominator*quickimp.laurent(3,-3,numpy.array([-1,0,0,0,0,0,1],dtype=int))
                     templist.append(mono.monomial(tempde,numerator,tempgen))
                     if j>0:
                         j-=1
@@ -233,12 +215,10 @@ class expressionG2:
                 elif generator[j]=='f' and generator[j+1]=='e':
                     generator=generator[:j]+'ef'+generator[j+2:]
                     tempgen=genLib.genClass(generator[:j]+'k'+generator[j+2:])
-                    tempde=denominator*quickimp.laurent(1,-1,
-                    numpy.array([1,0,-1],dtype=int))
+                    tempde=denominator*quickimp.laurent(1,-1,numpy.array([1,0,-1],dtype=int))
                     templist.append(mono.monomial(tempde,numerator,tempgen))
                     tempgen=genLib.genClass(generator[:j]+'j'+generator[j+2:])
-                    tempde=denominator*quickimp.laurent(1,-1,
-                    numpy.array([-1,0,1],dtype=int))
+                    tempde=denominator*quickimp.laurent(1,-1,numpy.array([-1,0,1],dtype=int))
                     templist.append(mono.monomial(tempde,numerator,tempgen))
                     if j>0:
                         j-=1
@@ -304,8 +284,7 @@ class expressionG2:
             while j<len(generator)-2:
                 if generator[j]=='E' and generator[j+1]=='e' and generator[j+2]=='E':
                     generator=generator[:j]+'EEe'+generator[j+3:]
-                    denominator=denominator*quickimp.laurent(3,-3,
-                    numpy.array([1,0,0,0,0,0,1],dtype=int))
+                    denominator=denominator*quickimp.laurent(3,-3,numpy.array([1,0,0,0,0,0,1],dtype=int))
                     tempgen=genLib.genClass(generator[:j]+'eEE'+generator[j+3:])
                     templist.append(mono.monomial(denominator,numerator,tempgen))
                     if j>0:
@@ -346,26 +325,19 @@ class expressionG2:
             for j in range(len(generator)):
                 if j!=0:
                     if generator[j]=='E':
-                        expmul.append(expressionG2
-                        ([mono.monomial.frommaxmincoe
-                        (0,0,numpy.array([1],dtype=int),0,0,numpy.array
-                        ([-1],dtype=int),'KF')]))
+                        expmul.append(expressionG2([mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,numpy.array([-1],dtype=int),'KF')]))
                     elif generator[j]=='e':
-                        mono1=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int)
-                        ,0,0,numpy.array([1],dtype=int),'eE')
-                        mono2=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int)
-                        ,3,3,numpy.array([-1],dtype=int),'Ee')
+                        mono1=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,numpy.array([1],dtype=int),'eE')
+                        mono2=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),3,3,numpy.array([-1],dtype=int),'Ee')
                         expmul.append(expressionG2([mono1,mono2]))
                     else:
                         raise ValueError('implement wrong')
                 else:
                     if generator[j]=='E':
-                        expmul.append(expressionG2([mono.monomial(denominator
-                        ,numerator*quickimp.laurent(0,0,numpy.array([-1],dtype=int)),'KF')]))
+                        expmul.append(expressionG2([mono.monomial(denominator,numerator*quickimp.laurent(0,0,numpy.array([-1],dtype=int)),'KF')]))
                     elif generator[j]=='e':
                         mono1=mono.monomial(denominator,numerator,'eE')
-                        mono2=mono.monomial(denominator,numerator*quickimp.laurent
-                        (3,3,numpy.array([-1],dtype=int)),'Ee')
+                        mono2=mono.monomial(denominator,numerator*quickimp.laurent(3,3,numpy.array([-1],dtype=int)),'Ee')
                         expmul.append(expressionG2([mono1,mono2]))
                     else:
                         raise ValueError('implement wrong')
@@ -385,43 +357,24 @@ class expressionG2:
             for j in range(len(generator)):
                 if j!=0:
                     if generator[j]=='E':
-                        mono1=mono.monomial.frommaxmincoe(3,-3,numpy.array
-                        ([1,0,2,0,2,0,1],dtype=int),0,0,numpy.array
-                        ([1],dtype=int),'Eeee')
-                        mono2=mono.monomial.frommaxmincoe(1,-1,numpy.array
-                        ([1,0,1],dtype=int),1,1,numpy.array
-                        ([-1],dtype=int),'eEee')
-                        mono3=mono.monomial.frommaxmincoe(1,-1,numpy.array
-                        ([1,0,1],dtype=int),2,2,numpy.array([1],dtype=int),'eeEe')
-                        mono4=mono.monomial.frommaxmincoe(3,-3,numpy.array
-                        ([1,0,2,0,2,0,1],dtype=int),3,3,numpy.array
-                        ([-1],dtype=int),'eeeE')
+                        mono1=mono.monomial.frommaxmincoe(3,-3,numpy.array([1,0,2,0,2,0,1],dtype=int),0,0,numpy.array([1],dtype=int),'Eeee')
+                        mono2=mono.monomial.frommaxmincoe(1,-1,numpy.array([1,0,1],dtype=int),1,1,numpy.array([-1],dtype=int),'eEee')
+                        mono3=mono.monomial.frommaxmincoe(1,-1,numpy.array([1,0,1],dtype=int),2,2,numpy.array([1],dtype=int),'eeEe')
+                        mono4=mono.monomial.frommaxmincoe(3,-3,numpy.array([1,0,2,0,2,0,1],dtype=int),3,3,numpy.array([-1],dtype=int),'eeeE')
                         expmul.append(expressionG2([mono1,mono2,mono3,mono4]))
                     elif generator[j]=='e':
-                        expmul.append(expressionG2([mono.monomial.frommaxmincoe
-                        (0,0,numpy.array([1],dtype=int),0,0,numpy.array
-                        ([-1],dtype=int),'kf')]))
+                        expmul.append(expressionG2([mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,numpy.array([-1],dtype=int),'kf')]))
                     else:
                         raise ValueError('implement wrong')
                 else:
                     if generator[j]=='E':
-                        mono1=mono.monomial(denominator*quickimp.laurent(3,-3
-                        ,numpy.array([1,0,2,0,2,0,1],dtype=int)),numerator,'Eeee')
-                        mono2=mono.monomial(denominator*quickimp.laurent(1,-1,
-                        numpy.array([1,0,1],dtype=int)),numerator*quickimp.laurent
-                        (1,1,numpy.array([-1],dtype=int)),'eEee')
-                        mono3=mono.monomial(denominator*quickimp.laurent(1,-1,
-                        numpy.array([1,0,1],dtype=int)),numerator*quickimp.laurent
-                        (2,2,numpy.array([1],dtype=int)),'eeEe')
-                        mono4=mono.monomial(denominator*quickimp.laurent(3,-3,
-                        numpy.array([1,0,2,0,2,0,1],dtype=int)),
-                        numerator*quickimp.laurent
-                        (3,3,numpy.array([-1],dtype=int)),'eeeE')
+                        mono1=mono.monomial(denominator*quickimp.laurent(3,-3,numpy.array([1,0,2,0,2,0,1],dtype=int)),numerator,'Eeee')
+                        mono2=mono.monomial(denominator*quickimp.laurent(1,-1,numpy.array([1,0,1],dtype=int)),numerator*quickimp.laurent(1,1,numpy.array([-1],dtype=int)),'eEee')
+                        mono3=mono.monomial(denominator*quickimp.laurent(1,-1,numpy.array([1,0,1],dtype=int)),numerator*quickimp.laurent(2,2,numpy.array([1],dtype=int)),'eeEe')
+                        mono4=mono.monomial(denominator*quickimp.laurent(3,-3,numpy.array([1,0,2,0,2,0,1],dtype=int)),numerator*quickimp.laurent(3,3,numpy.array([-1],dtype=int)),'eeeE')
                         expmul.append(expressionG2([mono1,mono2,mono3,mono4]))
                     elif generator[j]=='e':
-                        expmul.append(expressionG2([mono.monomial(denominator,
-                        numerator*quickimp.laurent(0,0,numpy.array
-                        ([-1],dtype=int)),'kf')]))
+                        expmul.append(expressionG2([mono.monomial(denominator,numerator*quickimp.laurent(0,0,numpy.array([-1],dtype=int)),'kf')]))
                     else:
                         raise ValueError('implement wrong')
             for j in range(len(expmul)-1):
