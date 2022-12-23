@@ -383,10 +383,8 @@ class expressionG2:
         return expressionG2(newmonomiallist)
 
 if __name__=='__main__':
-    e1=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,
-    numpy.array([1],dtype=int),'E')
-    e2=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,
-    numpy.array([1],dtype=int),'e')
+    e1=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,numpy.array([1],dtype=int),'E')
+    e2=mono.monomial.frommaxmincoe(0,0,numpy.array([1],dtype=int),0,0,numpy.array([1],dtype=int),'e')
     b=expressionG2([e2])
     #c=expressionG2([e1])
     #d=e
